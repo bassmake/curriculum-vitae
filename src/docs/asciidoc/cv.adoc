@@ -1,91 +1,79 @@
 :doctype: article
 
-== Experience
+== Miroslav Matejovský - Curriculum Vitae
 
-== Education
+* Surname: Matejovský
+* First name: Miroslav
+* Date of birth: 11.07.1984
+* Email: miroslav.matejovsky@gmail.com
+* Phone number: +421918372392
 
-== Skills
+== Work experience
 
-Curriculum Vitae
+* Wirecard Technologies (2014.04 - present)
 
-Surname: Matejovský
-First name: Miroslav
-Date of birth: 11.07.1984
-Email: miroslavmatejovsky@gmail.com
-Telephone: +421918372392
+  ** Software architect in VAS (2017.04 - present) +
+  Introduced "Self contained systems" like architecture.
+  Introduced Lagom framework with event sourcing and Cassandra with Oracle as storage.
+  Introducing Kafka as broker for asynchronous messaging at the moment.
 
-Work Experience:
+  ** Software engineer in VAS (2015.04 - 2017.03) +
+  Leading VAS loyalty development team.
+  Created multiple modules based on Camel and Spring boot on java 8 with focus on functional programming.
+  One Akka module written in Scala.
+  State persisted in DB, application layer is stateless to support horizontal scalability without need to have cluster.
 
-Wirecard Technologies
-2014.04-present
-WebUI – Ember.js application communicating with Spring MVC middle layer through REST API. Modern responsive multi-brand one page application for managing your payment cards.
+  ** WebUI (2014.04 - 2015.03) +
+  Ember.js application communicating with Spring MVC middle layer through REST API.
+  Modern responsive multi-brand one page application for managing your payment cards.
 
-RWE IT Slovakia
-2013.09-2014.03
-ICON – Java EE 6(full stack) application with OSGI support.
-2013.07-2013.08
-ZKA – Zeitkontroll-Applikation. Spring based web application for storing time relevation data.
-2012.12-2013.06
-Responsible for developing CIP (Customer Information Portal). CIP is Java EE web application using JSF 1.2 (richfaces 3.3), JDBC, JAX-WS and AXIS-WS. I have migrated this project to Maven 3 and JSF 2.0.
+* RWE IT Slovakia (2012.12-2014.03)
 
-MoveGuides startup
-2011.10-2012.03
-Creating server side for MoveGuides web application from scratch using Java 1.6, Maven 2, Spring, Spring MVC, Spring Security, Spring social, Hibernate 3. Deploying to Tomcat 7.0.
+  ** ICON (2013.07-2014.03) +
+  Java EE 6 (CDI, JSF, JPA, JTA, ...) application deployed to Glassfish.
 
-VSL Software, a.s.
-2007.07-2012.11
-Projects:
-1. Health insurance information system for Dôvera, a.s.
-2011.03-present
-Server-side programming of methods according to analytic's output in Java 1.4 and Java 1.5, deploying to Tomcat 5.5. Using internal frameworks for object-relational mapping with SQL queries for Oracle Database.
-Creating DB scripts according to analytic's output.
-2. National Institute for Certified Educational Measurements
-2010.12-2011.03
-Server-side programming of methods according to analytic's output in Java 1.6, deploying to Tomcat 6.0. Using internal frameworks for object-relational mapping with SQL queries for MySQL Database.
-Implementation team leader (4 programmers in team)
-3. The Supreme Audit Office of the Slovak Republic (participation with Asseco, a.s.)
-2010.08-2010.12
-Client-side programming of methods and GUI according to analytic's output in Java 1.6. Using Java Server Faces, Richfaces and Facelets, deploying to JBoss server.
+  ** ZKA (Zeitkontroll-Applikation) (2013.06-2013.07) +
+  Spring based web application for storing signed time relevant data.
 
-4. Portlets research (JSR168, JSR286)
-2010.08
-Research of possibilities to use portlets in VSL internal technology.Programming portlets and deploying to Jetspeed 2.2
-5. Data migration from APOLLO to Dôvera, a.s.
-2009.11-2010.06
-Writing and optimising SQL migration scripts for Oracle database. Using oracle enterprise manager for performance checking
-6. Health insurance information system for VšZP, a.s.
-2008.08-2009.01
-Server-side programming of methods according to analytic's output in Java 1.4, deploying to Tomcat 5.5. Using internal frameworks for object-relational mapping with SQL queries for Oracle Database. Creating DB scripts according to analytic's output.
-7. Service information system for ZSSK Cargo
-2007.07-2008.09
-Client-side programming of methods and GUI according to analytic's output in Java 1.4, deploying to Tomcat 5.5. Using internal frameworks for object-relational mapping with SQL queries for Oracle Database.
+  ** CIP (Customer Information Portal) (2012.12-2013.06) +
+  Java EE web application using JSF 1.2 (richfaces 3.3), JDBC, JAX-WS and AXIS-WS.
 
+* MoveGuides startup (2011.10-2012.03) +
+  Creating server side for MoveGuides web application from scratch using Java 6, Maven, Spring, Spring MVC,
+  Spring Security, Spring social, Hibernate 3. Deployed to Tomcat 7.x.
 
-Language Experience
-Java – expert
-Javascript – advandced
-Scala – intermediate
-Ruby - beginner
-Clojure – beginner
-Haskell - beginner
+* VSL Software, a.s. (2007.07-2012.11) +
+  Started as a frontend developer and moved to backend development later. Database centric applications build
+  on oracle DB with proprietary technologies based on Java 6, Servlets, Portlets, JDBC. Focus in writing
+  efficient SQL queries and complex business logic for health insurance companies.
 
-Technology Experience
-Spring – advanced
-Spring MVC – advanced
-Ember.js - advanced
-SQL – advanced
-Java EE - intermediate
-JSF – intermediate
+== Language Experience
 
-Education & Qualifications
-Oracle Certified Associate, Java SE 7 Programmer
-2006-2007 Pavol Jozef Šafárik University in Košice
-Computational physics including Econophysics, Simulations on lattices and Heuristic methods for finding extrema
-2002-2005 Pavol Jozef Šafárik University in Košice
-Physics
-Bc.
+* Java - expert
+* Javascript - advanced
+* Scala - advanced
+* Ruby - beginner
+* Clojure - beginner
+* Haskell - beginner
 
-Languages:
-English - upper intermediate
-German – intermediate
+== Technology Experience
 
+* Lagom
+* Akka
+* Camel
+* Spring (MVC, boot, security, ...)
+* Keycloak (OpenId Connect)
+* gRPC
+* REST
+* ActiveMQ
+* JOOQ
+* SQL
+
+== Education & Qualifications
+
+* Oracle Certified Associate, Java SE 7 Programmer
+* 2006-2007 Pavol Jozef Šafárik University in Košice +
+  Computational physics including Econophysics, Simulations on lattices and Heuristic methods for finding extrema +
+  2002-2005 Pavol Jozef Šafárik University in Košice +
+  Physics +
+  Bc.
