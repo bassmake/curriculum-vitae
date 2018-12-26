@@ -1,0 +1,23 @@
+buildscript {
+  dependencies {
+    classpath 'org.asciidoctor:asciidoctorj-pdf:1.5.0-alpha.16'
+  }
+}
+
+plugins {
+  id "org.asciidoctor.convert" version "1.5.9.2"
+}
+
+group = "sk.bsmk"
+version = "1.0-SNAPSHOT"
+
+asciidoctor {
+  backends = [ 'html', 'pdf' ]
+}
+
+build.dependsOn asciidoctor
+
+wrapper {
+  version = "5.0"
+  distributionType = Wrapper.DistributionType.ALL
+}
