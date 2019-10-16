@@ -1,2 +1,5 @@
 # curriculum-vitae
-my curriculum vitae written in asciidoc
+My [curriculum vitae](src/docs/asciidoc/cv.adoc) written in asciidoc.
+
+
+

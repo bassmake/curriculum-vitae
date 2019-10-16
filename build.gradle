@@ -18,6 +18,6 @@ asciidoctor {
 build.dependsOn asciidoctor
 
 wrapper {
-  version = "5.0"
+  version = "5.6.2"
   distributionType = Wrapper.DistributionType.ALL
 }
