@@ -5,7 +5,7 @@ buildscript {
 }
 
 plugins {
-  id "org.asciidoctor.convert" version "1.5.9.2"
+  id "org.asciidoctor.convert" version "1.6.1"
 }
 
 group = "sk.bsmk"
