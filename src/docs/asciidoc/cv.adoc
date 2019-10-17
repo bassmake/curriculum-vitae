@@ -14,15 +14,14 @@
 
   ** Software architect in VAS (2017.04 - present) +
   Responsible for LMS (Loyalty management system) architecture with 100% uptime as requirement.
-  Introduced "Self contained systems" like architecture.
-  Introduced Lagom framework with event sourcing and Cassandra as storage.
-  Introduced Kafka as broker for asynchronous event publishing.
+  "Self contained systems" like architecture with gRpc for synchronous communications and Kafka topics for asynchronous event publishing.
+  Introduced Lagom framework with event sourcing and Cassandra as event storage.
 
   ** Software engineer in VAS (2015.04 - 2017.03) +
-  Leading VAS loyalty development team.
+  Leading VAS (Value Added Services) loyalty development team in Wirecard.
   Created multiple modules based on Camel and Spring boot on java 8 with focus on DDD, clean architecture and functional programming.
   Introduced Scala and Akka for one module.
-  State persisted in DB, application layer is stateless to support horizontal scalability without need to have cluster.
+  State persisted in DB, stateless application layer to support horizontal scalability.
   Created foundations for QA testing using Serenity framework.
 
   ** WebUI (2014.04 - 2015.03) +
@@ -62,11 +61,11 @@
 
 * Lagom, Akka, Alpakka
 * Camel
-* Spring (MVC, boot, security, ...)
+* Spring (MVC, Boot, Security, Cloud Gateway, ...)
 * Keycloak (OpenId Connect)
-* gRPC, REST
+* gRPC, REST, SOAP
 * ActiveMQ, Kafka, Avro
-* SQL, JOOQ
+* SQL, JOOQ, Cassandra
 * Amazon SNS, CloudFront
 
 == Education & Qualifications
