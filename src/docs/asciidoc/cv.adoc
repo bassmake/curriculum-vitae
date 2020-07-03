@@ -6,6 +6,8 @@
 * First name: Miroslav
 * Date of birth: 11.07.1984
 * Email: miroslav.matejovsky@gmail.com
+* LinkedIn: https://www.linkedin.com/in/miroslav-matejovsky-227a9146/
+* GitHub: https://github.com/bassmake
 * Phone number: +421918372392
 
 == Work experience
@@ -59,14 +61,25 @@
 
 == Technology Experience
 
-* Lagom, Akka, Alpakka
+* Lagom, Akka, Akka Stream, Alpakka
 * Camel
-* Spring (MVC, Boot, Security, Cloud Gateway, ...)
+* Spring (MVC, Boot, Security, Cloud Gateway, Batch, ...)
 * Keycloak (OpenId Connect)
 * gRPC, REST, SOAP
 * ActiveMQ, Kafka, Avro
 * SQL, JOOQ, Cassandra
 * Amazon SNS, CloudFront
+
+== Software Architecture
+
+* Clean architecture (Hexagonal/Onion)
+* Event Sourcing
+* CQRS
+* Microservices
+* Self contained systems
+* C4 model
+* Structurizr
+* Arc42
 
 == Education & Qualifications
 
