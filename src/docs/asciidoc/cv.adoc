@@ -55,6 +55,7 @@
 * Java - expert
 * Javascript - advanced
 * Scala - advanced
+* Kotlin - advanced
 * Ruby - beginner
 * Clojure - beginner
 * Haskell - beginner
