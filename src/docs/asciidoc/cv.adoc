@@ -12,14 +12,19 @@
 
 == Work experience
 
-* Wirecard Technologies (2014.04 - present)
+* EPAM (2020.08 - present)
 
-  ** Software architect in VAS (2017.04 - present) +
+  ** SRE Plaform Development Team Lead (2020.10 - present) +
+  Implementing various tools to improve observablity and realiablity of system for multinational retail corporation.
+
+* Wirecard Technologies (2014.04 - 2020.07)
+
+  ** Software Architect in VAS (2017.04 - 2020.07) +
   Responsible for LMS (Loyalty management system) architecture with 100% uptime as requirement.
   "Self contained systems" like architecture with gRpc for synchronous communications and Kafka topics for asynchronous event publishing.
   Introduced Lagom framework with event sourcing and Cassandra as event storage.
 
-  ** Software engineer in VAS (2015.04 - 2017.03) +
+  ** Software Engineer in VAS (2015.04 - 2017.03) +
   Leading VAS (Value Added Services) loyalty development team in Wirecard.
   Created multiple modules based on Camel and Spring boot on java 8 with focus on DDD, clean architecture and functional programming.
   Introduced Scala and Akka for one module.
@@ -53,9 +58,10 @@
 == Language Experience
 
 * Java - expert
-* Javascript - advanced
 * Scala - advanced
 * Kotlin - advanced
+* go - intermediate
+* Javascript - intermediate
 * Ruby - beginner
 * Clojure - beginner
 * Haskell - beginner
