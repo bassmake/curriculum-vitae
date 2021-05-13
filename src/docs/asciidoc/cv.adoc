@@ -12,48 +12,59 @@
 
 == Work experience
 
-* EPAM (2020.08 - present)
+=== SRE Technical lead for major retail company via EPAM (2020.08 - present)
 
-  ** SRE Plaform Development Team Lead (2020.10 - present) +
-  Implementing various tools to improve observablity and realiablity of system for multinational retail corporation.
+==== Automated Playbooks
+Aim to reduce time to resolve issues on production with automated applying various types of playbooks
+(incident response, scale-up/down, stress test, ...). Project is highly valued in company and reported to CTO.
+Orchestration of several internal and open source tools to monitor and execute state transition easily from one place.
+Main module written in Kotlin, upcoming integrations will be using go.
 
-* Wirecard Technologies (2014.04 - 2020.07)
+==== Dependency Graph
+Project collected dependencies, ownership and other information about applications deployed to production.
+Data sources like github enterprise, nexus-like artifact repository and OneOps were used to collect
+information and store it as graph to Neo4j. GCP BigQuery and Azure Blob storage was used to store reports and data.
+Deployed to kubernetes using GitOps paradigm.
 
-  ** Software Architect in VAS (2017.04 - 2020.07) +
-  Responsible for LMS (Loyalty management system) architecture with 100% uptime as requirement.
-  "Self contained systems" like architecture with gRpc for synchronous communications and Kafka topics for asynchronous event publishing.
-  Introduced Lagom framework with event sourcing and Cassandra as event storage.
+=== Software Architect in Wirecard Technologies (2014.04 - 2020.07)
 
-  ** Software Engineer in VAS (2015.04 - 2017.03) +
-  Leading VAS (Value Added Services) loyalty development team in Wirecard.
-  Created multiple modules based on Camel and Spring boot on java 8 with focus on DDD, clean architecture and functional programming.
-  Introduced Scala and Akka for one module.
-  State persisted in DB, stateless application layer to support horizontal scalability.
-  Created foundations for QA testing using Serenity framework.
+==== Value Added Services
+Responsible for LMS (Loyalty management system) architecture with 100% uptime as requirement.
+"Self-Contained Systems" like architecture with gRpc for synchronous communications and Kafka topics for asynchronous event publishing.
+Introduced Lagom framework with event sourcing and Cassandra as event storage.
 
-  ** WebUI (2014.04 - 2015.03) +
-  Ember.js application communicating with Spring MVC middle layer through REST API.
-  Modern responsive multi-brand one page application for managing your payment cards.
+=== Software Engineer in Wirecard Technologies (2014.04 - 2017.03)
 
-* RWE IT Slovakia (2012.12-2014.03)
+==== Value Added Services (2015.04 - 2017.03)
+Leading VAS (Value Added Services) loyalty development team in Wirecard.
+Created multiple modules based on Camel and Spring boot on java 8 with focus on DDD, clean architecture and functional programming.
+Introduced Scala and Akka for one module.
+State persisted in DB, stateless application layer to support horizontal scalability.
+Created foundations for QA testing using Serenity framework.
 
-  ** ICON (2013.07-2014.03) +
-  Java EE 6 (CDI, JSF, JPA, JTA, ...) application deployed to Glassfish.
+==== WebUI (2014.04 - 2015.03)
+Ember.js application communicating with Spring MVC middle layer through REST API.
+Modern responsive multi-brand one page application for managing your payment cards.
 
-  ** ZKA (Zeitkontroll-Applikation) (2013.06-2013.07) +
-  Spring based web application for storing signed time relevant data.
+=== RWE IT Slovakia (2012.12-2014.03)
 
-  ** CIP (Customer Information Portal) (2012.12-2013.06) +
-  Java EE web application using JSF 1.2 (richfaces 3.3), JDBC, JAX-WS and AXIS-WS.
+==== ICON (2013.07-2014.03) +
+Java EE 6 (CDI, JSF, JPA, JTA, ...) application deployed to Glassfish.
 
-* MoveGuides startup (2011.10-2012.03) +
-  Creating server side for MoveGuides web application from scratch using Java 6, Maven, Spring, Spring MVC,
-  Spring Security, Spring social, Hibernate 3. Deployed to Tomcat 7.x.
+==== ZKA (Zeitkontroll-Applikation) (2013.06-2013.07)
+Spring based web application for storing signed time relevant data.
 
-* VSL Software, a.s. (2007.07-2012.11) +
-  Started as a frontend developer and moved to backend development later. Database centric applications build
-  on oracle DB with proprietary technologies based on Java 6, Servlets, Portlets, JDBC. Focus in writing
-  efficient SQL queries and complex business logic for health insurance companies.
+==== CIP (Customer Information Portal) (2012.12-2013.06)
+Java EE web application using JSF 1.2 (richfaces 3.3), JDBC, JAX-WS and AXIS-WS.
+
+=== MoveGuides startup (2011.10-2012.03)
+Creating server side for MoveGuides web application from scratch using Java 6, Maven, Spring, Spring MVC,
+Spring Security, Spring social, Hibernate 3. Deployed to Tomcat 7.x.
+
+=== VSL Software, a.s. (2007.07-2012.11)
+Started as a frontend developer and moved to backend development later. Database centric applications build
+on oracle DB with proprietary technologies based on Java 6, Servlets, Portlets, JDBC. Focus in writing
+efficient SQL queries and complex business logic for health insurance companies.
 
 == Language Experience
 
@@ -61,8 +72,8 @@
 * Scala - advanced
 * Kotlin - advanced
 * go - intermediate
-* Javascript - intermediate
-* Ruby - beginner
+* Javascript/Typescript - intermediate
+* Python - beginner
 * Clojure - beginner
 * Haskell - beginner
 
@@ -72,10 +83,11 @@
 * Camel
 * Spring (MVC, Boot, Security, Cloud Gateway, Batch, ...)
 * Keycloak (OpenId Connect)
-* gRPC, REST, SOAP
+* gRPC, GraphQL, REST, SOAP
 * ActiveMQ, Kafka, Avro
 * SQL, JOOQ, Cassandra
-* Amazon SNS, CloudFront
+* Neo4j
+* Kubernetes, AWS lambda, CloudFront, GCP BigQuery, CosmosDB
 
 == Software Architecture
 
@@ -90,6 +102,7 @@
 
 == Education & Qualifications
 
+* Professional Cloud Architect by Google Cloud
 * Oracle Certified Associate, Java SE 7 Programmer
 * 2006-2007 Pavol Jozef Šafárik University in Košice +
   Computational physics including Econophysics, Simulations on lattices and Heuristic methods for finding extrema +
